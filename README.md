@@ -5,6 +5,6 @@ I have created To Do List application with React JS. I have designed the site us
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 <---INSTRUCTION--->
-1) Clone the git to the your computer. [git clone https://daramful.github.com/myapp]
+1) Clone the git to the your computer. [git clone https://github.com/daramful/myapp]
 2) Go into the downloaded file [cd myapp]
 3) Start loading npm package, if you already have npm package and nodejs installed. [npm start]
