@@ -1,53 +1,54 @@
-.box1{
-    font-family: 'PT Sans Narrow', sans-serif;
+.box1 {
+  font-family: 'PT Sans Narrow', sans-serif;
 	width: 100%;
 	height: auto;
 	text-align: center;
-	background: powderblue;
-	font-size: 4em;
-	padding: 1em;
+	background-color: powderblue;
+  background: cover;
+	font-size: 3em;
+  text-align: center;
 }
 
 .box2{
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 	width: 100%;
 	height: auto;
 	text-align: Center;
 	background: skyblue;
 	font-size: 2em;
-	padding: 12px;	
-	margin: 12px;
-
+  background: cover;
 }
 
 .box3{
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 	width: 50%;
 	height: auto;
 	text-align: center;
+  max-inline-size: 50%;
+  margin-left: 25%;
 	background: steelblue;
 	font-size: 2em;
 	padding: 12px;	
-
-	border: 
-
+  background: cover;
 }
 
+/*Notepad CSS*/
 .box4{
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 	min-width: 50%;
 	max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 	height: auto;
 	text-align: center;
 	background-color: rgba(100,149,237,0.4);
 	font-size: 2em;
-    border-left: 6px solid red;
-    border-right: 6px solid red;
+  border-left: 0.4em solid red;
+  border-right: 0.4em solid red;
 }
 
 .list{
-	list-style-type: none;
+	list-style-type: lower-roman;
 	text-align: left;
 	margin-right: 1em;
-	
 }

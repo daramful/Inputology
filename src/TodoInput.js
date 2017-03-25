@@ -1,27 +1,32 @@
-// JavaScript Document
-import React, {Component} from "react"
+/*jshint esversion: 6 */
+/* eslint-disable */
+
+import React, {Component} from "react";
 
 class TodoInput extends Component{
 	
 	constructor(props){
-		super(props)
+		super(props);
 		this.state = {
 			newTodo: ""
-		}
-		this.addClicked = this.addClicked.bind(this)
+		};
+		this.addClicked = this.addClicked.bind(this);
 	}
 	
 	addClicked(){
-		let {onAddTodo} = this.props
-		onAddTodo(this.state.newTodo)
+		let {onAddTodo} = this.props;
+		onAddTodo(this.state.newTodo);
 		this.setState({
 			newTodo: ""
-		})
+		});
 	}
+	
+
 	
 	
 	render(){
-		let {newTodo} = this.state
+		let {newTodo} = this.state;
+		let {counter} = 0;
 		return(
 			<div>
 			<input placeholder="What's your plan?" value={newTodo} onChange={(word)=>this.setState({newTodo: word.target.value})}/>
