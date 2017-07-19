@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I have created To Do List application with React JS. I have designed the site using use flexbox to manage the layout. There is a function of clicking the Add button,adding a new item in the list and increases the list counter.
 
+EDIT: Changed from flexbox to fix to right format for react.js
+
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 <---INSTRUCTION--->
